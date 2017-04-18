@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/blackboard">
+
+    <TextView
+        android:id="@+id/questionTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="45dp"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:text="Hello there, I am a Question.."/>
+
+    <TextView
+        android:id="@+id/choice1TV"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/qboard"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="Answer is here"/>
+
+    <TextView
+        android:id="@+id/choice2TV"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/qboard"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="Answer is here"
+        />
+
+    <TextView
+        android:id="@+id/choice3TV"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/qboard"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="Answer is here" />
+
+    <ImageView
+        android:id="@+id/successImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/smiley"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
